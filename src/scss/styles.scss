@@ -33,4 +33,18 @@
         color: #ffe8b6;
         font-weight: 300;
     }
+
+    .carousel-indicators {
+        
+        [data-bs-target] {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+        }
+
+        .active {
+            background-color: #ffffff;
+        }
+    }
 }
