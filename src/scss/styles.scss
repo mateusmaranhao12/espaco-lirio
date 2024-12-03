@@ -4,6 +4,7 @@
     padding: 20px;
 
     .nav-link {
+        margin-left: 5px;
         color: #ffe8b6;
         font-weight: bold;
         border-bottom: 2px solid transparent;
@@ -14,5 +15,22 @@
 
         // Adiciona transição suave
         transition: border-bottom-color 0.3s ease;
+    }
+}
+
+//Secao principal
+.secao-principal {
+    background-color: #979648;
+    text-align: center;
+    padding: 20px 0;
+
+    .logo-centralizada {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        color: #ffe8b6;
+        font-weight: 300;
     }
 }
