@@ -23,6 +23,7 @@
     background-color: #979648;
     text-align: center;
     padding: 20px 0;
+    margin-top: 80px;
 
     .logo-centralizada {
         max-width: 300px;
@@ -35,16 +36,121 @@
     }
 
     .carousel-indicators {
-        
+
+        background-color: rgba(171, 202, 98, 0.575);
+        border-radius: 20px;
+        gap: 10px;
+
         [data-bs-target] {
             width: 10px;
             height: 10px;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
             border-radius: 50%;
         }
 
         .active {
-            background-color: #ffffff;
+            background-color: #000000;
+        }
+    }
+}
+
+//Nossas salas
+
+.nossas-salas,
+.nossas-salas-2 {
+    background-color: #ffe8b6;
+}
+
+.nossas-salas {
+    padding: 20px;
+
+    h2 {
+        color: #535328;
+        font-weight: bold;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    p {
+        color: #535328;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    .btn-alugue {
+        background-color: #8e9c51;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    img {
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0.5);
+        }
+
+        transition: filter 0.3s ease-in-out;
+    }
+}
+
+.nossas-salas-2 {
+
+    .salas {
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        p {
+            font-size: 2rem;
+            line-height: 1.6;
+            color: #535328;
+            font-weight: 400;
+        }
+
+        // Ajustes para telas menores
+        @media (max-width: 768px) {
+            margin-top: 0; // Remove o margin-top
+            flex-direction: column; // Empilha o texto e a imagem verticalmente
+
+            p {
+                font-size: 1.5rem; // Reduz o tamanho do texto
+                padding: 0 10px; // Adiciona espaço interno lateral
+            }
+        }
+    }
+
+    img {
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    // Ajustes para telas menores
+    @media (max-width: 768px) {
+        .row {
+            flex-direction: column; // Coloca os itens em uma coluna
+        }
+
+        .col-md-6 {
+            margin-bottom: 20px; // Espaço entre os elementos
+
+            p {
+                font-size: 1.5rem; // Reduz o tamanho do texto
+                padding: 0 10px; // Adiciona espaço interno para melhorar a leitura
+            }
+        }
+
+        img {
+            width: 100%; // Garante que a imagem ocupe toda a largura disponível
+            height: auto; // Mantém a proporção da imagem
         }
     }
 }

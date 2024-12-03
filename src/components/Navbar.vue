@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-espaco-lirio">
+  <nav class="navbar navbar-expand-lg navbar-espaco-lirio fixed-top">
     <div class="container">
       <!-- Logo ou nome -->
       <a class="navbar-brand text-light" href="#">Espaço Lírio</a>
