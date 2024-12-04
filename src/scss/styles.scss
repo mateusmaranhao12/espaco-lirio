@@ -154,3 +154,70 @@
         }
     }
 }
+
+//Servicos
+
+.servicos {
+
+    background-color: #979648;
+    text-align: center;
+    padding: 20px 0;
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: #ffe8b6;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: #ffe8b6;
+    }
+
+    .card-servicos {
+        background-color: #ffe8b6;
+        margin-top: 20px;
+        padding: 10px;
+
+        img {
+            border-radius: 20px;
+            height: 300px;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .img {
+                height: 100%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1116px) {
+            .img {
+                height: 100%;
+            }
+        }
+
+        h3 {
+            color: #0b3100;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            color: #0b3100;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .btn-inscreva {
+            background-color: #979648;
+            color: #ffffff;
+
+            &:hover {
+                background-color: #0b3100;
+            }
+        }
+    }
+
+}

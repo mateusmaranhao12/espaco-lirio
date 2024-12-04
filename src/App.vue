@@ -18,4 +18,7 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 </style>
