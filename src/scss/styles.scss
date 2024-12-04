@@ -221,3 +221,40 @@
     }
 
 }
+
+//precos
+.precos {
+
+    background-color: #ffe8b6;
+
+    .titulo-secao {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #5b5e3c;
+    }
+
+    .card-preco {
+        border-radius: 8px;
+        background: #fff8ea;
+
+        .preco {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #5b5e3c;
+        }
+
+        .descricao {
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+            /* Mantém as quebras de linha no texto */
+        }
+
+        &:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .bg-olive {
+        background-color: #5b5e3c;
+    }
+}
