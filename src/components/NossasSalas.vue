@@ -1,5 +1,5 @@
 <template>
-    <section class="nossas-salas">
+    <section id="nossas-salas" class="nossas-salas">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -19,7 +19,7 @@
             </div>
         </div>
     </section>
-    <section class="nossas-salas-2">
+    <section id="nossas-salas" class="nossas-salas-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 salas">

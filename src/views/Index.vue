@@ -1,9 +1,9 @@
 <template>
-  <secao-principal></secao-principal>
+  <secao-principal id="secao-principal"></secao-principal>
   <nossas-salas></nossas-salas>
-  <servicos></servicos>
-  <precos></precos>
-  <contatos></contatos>
+  <servicos id="servicos"></servicos>
+  <precos id="precos"></precos>
+  <contatos id="contatos"></contatos>
 </template>
 
 <script lang="ts">
