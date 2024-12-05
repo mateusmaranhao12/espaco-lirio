@@ -2,7 +2,7 @@
     <div class="secao-principal">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__backInDown ">
                     <img src="../assets/imgs/logo-casa-gambiarra.png" class="img-fluid logo-centralizada mt-5 mb-5">
                     <h3>Espaço de conexão, conhecimento e encontro. <br>
                         Aluguel de salas, coworking e aulas.</h3>
