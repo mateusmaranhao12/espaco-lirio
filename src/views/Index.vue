@@ -3,10 +3,12 @@
   <nossas-salas></nossas-salas>
   <servicos></servicos>
   <precos></precos>
+  <contatos></contatos>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
+import Contatos from '@/components/Contatos.vue'
 import SecaoPrincipal from '../components/SecaoPrincipal.vue'
 import NossasSalas from '@/components/NossasSalas.vue'
 import Servicos from '@/components/Servicos.vue'
@@ -14,6 +16,7 @@ import Precos from '@/components/Precos.vue'
 
 @Options({
   components: {
+    Contatos,
     NossasSalas,
     SecaoPrincipal,
     Servicos,
